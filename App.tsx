@@ -12,7 +12,12 @@ import { Learning } from './pages/Learning';
 import { LoginPage } from './pages/login';
 import { SignupPage } from './pages/signup';
 import { SettingsPage } from './pages/settings';
-import Layout from './components/Layout'; 
+// App.tsx (请将错误的第 15 行替换为下面这行)
+
+// ❌ 错误代码：import Layout from './components/Layout';
+
+// ✅ 正确代码：使用花括号 { } 进行命名导入
+import { Layout } from './components/Layout';
 import { ModularPage } from './components/ModularPage';
 import { StorageService } from './services/storage';
 
